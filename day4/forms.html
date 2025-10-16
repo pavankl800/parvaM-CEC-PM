@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="text-danger bg-info p-3 text-center">sign up form</h1>
+    <form>
+        <div class="mb-5">
+
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-control" type="text" name="name" id="name">
+        </div>
+        <div class="mb-5">
+
+            <label class="form-label" for="email_id">email_id:</label>
+            <input class="form-control" type="password" name="password" id="password"><br><br>
+        </div>
+        <div class="mb-5">
+
+            <label class="form-label" for="usn">usn:</label>
+            <input class="form-control" type="number" usn="usn" id="usn">
+        </div>
+        <div class="MB-5">
+            <label class="form-label" FOR="FORM-LABEL">GENDER:</label>
+            <input class="form-check-input" type="RADIO" name="GENDER" id="MALE" value="MALE">
+            <label class="form-check-label" FOR="FORM-LABEL">Male</label>
+            <input class="form-check-input" type="RADIO" name="GENDER" id="FEMALE" value="FEMALE">
+            <label class="form-check-label" FOR="FORM-LABEL">female</label>
+        </div>
+        <div class="mb-5">
+            <label class="form-label" for="hobbies">Hobbies:</label>
+            <!-- different name, different id will allow multiple selection for checkbox -->
+            <input class="form-check-input" type="checkbox" name="talking" id="talking" value="Talk">
+            <label class="form-check-label" for="talking">Talking</label>
+            <input class="form-check-input" type="checkbox" name="travelling" id="travelling" value="Travel">
+            <label class="form-check-label" for="travelling">Travelling</label>
+            <input class="form-check-input" type="checkbox" name="hiking" id="hiking" value="Hike">
+            <label class="form-check-label" for="hiking">Hiking</label>
+            <input class="form-check-input" type="checkbox" name="gaming" id="gaming" value="Play">
+            <label class="form-check-label" for="gaming">Gaming</label>
+        </div>
+          <div class="mb-5">
+            <label class="form-label" for="language">language:</label>
+            <!-- different name, different id will allow multiple selection for checkbox -->
+            <input class="form-check-input" type="checkbox" name="language 1" id="kannada" value="kannada">
+            <label class="form-check-label" for="kannada">kannada</label>
+            <input class="form-check-input" type="checkbox" name="language 2" id="hindi" value="hindi">
+            <label class="form-check-label" for="hindi">hindi</label>
+            <input class="form-check-input" type="checkbox" name="language 3" id="science" value="science">
+            <label class="form-check-label" for="science">science</label>
+            <input class="form-check-input" type="checkbox" name="language 4" id="python" value="python">
+            <label class="form-check-label" for="python">python</label>
+        </div>
+        <div class="mb-5">
+            <input class="btn btn-success" type="submit" value="signup">
+            <input class="btn btn-dark" type="reset" value="cancel">
+        </div>
+    </form>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
